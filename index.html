@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1">
+		
+		<title>Tea Leaves</title>
+		<!-- Loading third party fonts -->
+		<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|" rel="stylesheet" type="text/css">
+		<link href="fonts/font-awesome.min.css" rel="stylesheet" type="text/css">
+		<link href="fonts/iconmoon.css" rel="stylesheet" type="text/css">
+		<!-- Loading main css file -->
+		<link rel="stylesheet" href="style.css">
+		<link href="http://www.sclance.com/pngs/green-tea-png/green_tea_png_610968.png" rel="icon"/>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+		
+		<!--[if lt IE 9]>
+		<script src="js/ie-support/html5.js"></script>
+		<script src="js/ie-support/respond.js"></script>
+		<![endif]-->
+
+	</head>
+
+
+	<body class="homepage">
+		
+		<div id="site-content">
+			<header class="site-header">
+				<div class="container">
+					<a href="index.html" id="branding" class="pull-left">
+						<img src="images/EcHolistique TrÇsor final.png" alt="LOGO" height="30px" />
+					</a>
+					<!-- Default snippet for navigation -->
+					<div class="main-navigation pull-right">
+						<button type="button" class="menu-toggle"><i class="fa fa-bars"></i></button>
+						<ul class="menu">
+							<li class="menu-item"><a href="about.html">About</a></li>
+							<li class="menu-item"><a href="catalog.html">Catalog</a></li>
+							<li class="menu-item"><a href="contact.html">Contact</a></li>
+						</ul> <!-- .menu -->
+					</div> <!-- .main-navigation -->
+
+					<div class="mobile-navigation"></div>
+				</div>
+			</header> <!-- .site-header -->
+
+			<div class="hero">
+				<div class="container">
+					<font size="50px">
+						<img src="./images/EcHolistique TrÇsor final.png" alt="LOGO" height="100px" class="logo_main_img"/>
+					</font>
+					<h1 class="site-title">Holistic Infusion Teas</h1>
+					<small class="site-description">You can't buy happiness but you can buy tea and that's kind of the same thing
+						<br>
+						<a href="#" class="top_button">Buy Now</a>
+					</small>
+				</div>
+			</div>
+
+			<main class="main-content">
+				<div class="fullwidth-block cooking-section category-block">
+					<div class="container">
+						<figure><img src="http://pngimg.com/uploads/tea/tea_PNG16911.png" alt="cooking"></figure>
+						<div class="category-content">
+							<h1 class="category-title">Enriched Natural Flavoured Tea</h1>
+							<p>Our teas are carefully crafted in small batches after days of tasting and refining. No artificail flavours or colours. Just good tea - as it should be. There is a huge variety of tea in our farms. You can see our variety and buy them by clicking on the button below.
+							</p>
+							<a href="#" class="button">Buy Now</a>
+						</div> <!-- .category-content -->
+					</div>
+				</div> <!-- .cooking-section -->
+				<div class="fullwidth-block restaurant-section category-block">
+					<div class="container">
+						<figure><img src="https://pngimage.net/wp-content/uploads/2018/06/tea-leaves-png-1.png" alt="restaurant"></figure>
+						<div class="category-content">
+							<h1 class="category-title">Why Holistic Infusion Teas?</h1>
+							<p>Drink tea that is good for you. Good tea requires craftsmanship. Our in-house Tea Sommelier is a renowned tea expert. Each of our tea recipes is crafted by our Tea Sommelier after days of tasting, refining and re-tasting, so that you get nothing but the very best from India’s tea gardens—with all the flavour and health benefits intact. Our teas are blended in small batches. This ensures that the teas and ingredients are handled with utmost care. Less processed teas are able to retain maximum flavour and health benefits.</p>
+							<a href="#" class="button">Read more</a>
+						</div> <!-- .category-content -->
+					</div>
+				</div> <!-- .restaurant-section -->
+
+
+				<!--PopUP  Desktop-->
+				<div class="popup" id="popup">
+					<div class="popup_inner">
+						<div style="float: right; margin: 10px 50px; font-size: 35px;font-weight: bold;cursor: pointer;" onclick="close_popup();">&times;</div>
+						<div class="popup-table">
+							<div class="popup_img_column">
+								<div class="popup_img"><img style="border-radius: 50%;" width="100%" src="./images/contour.jpeg" id="popup_img"></div>
+								<div class="img_lower_content" id="popup_lower_content">ABCD</div>
+							</div>
+							<div class="popup_content_column">
+								<div class="popup_content_head" id="content_head">Heading</div>
+								<div class="popup_content_text" id="content_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad accusamus possimus quod rerum saepe quisquam vel tempore? Totam recusandae, excepturi, magnam iste cupiditate incidunt praesentium quidem labore quos sit ratione!</div>
+								<a href="#" id="popup_content_link"><div class="popup_content_button">Buy Now</div></a>
+							</div>
+						</div>
+					</div>	
+				</div>
+				<!--PopUP-->
+
+
+				<!--Popup Mobile-->
+				<div class="popup" style="width: 100vw;" id="mpopup">
+					<div style="position: absolute;font-size: 35px; right: 40px;top: 20px;font-weight: bold; color: #000;" onclick="close_popup();">&times;</div>
+					<div class="mpopup_inner">
+						<div class="mpopup-table">
+							<div class="mpopup_img_column">
+								<div class="mpopup_img"><img src="./images/contour.jpeg" style="border-radius: 50%;" width="100%" id="mpopup_img"/></div>
+								<div class="img_lower_content" id="mpopup_lower_content" style="text-align: left;margin-left: 20px;">ABCD</div>
+							</div>
+							<div class="mpopup_content_column">
+								<div class="popup_content_head" id="mcontent_head">heading</div>
+								<div class="mpopup_content_text" id="mcontent_text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae non dolor assumenda nemo atque aspernatur. Quo accusamus corrupti accusantium incidunt repellat, quaerat est, veritatis explicabo, quis perspiciatis atque hic quas.</div>
+								<a href="#" id="mpopup_content_link"><div class="popup_content_button">buy now</div></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--Popup Mobile-->
+	
+					
+				<div class="fullwidth-block fruits-section category-block">
+					<div class="container">
+						<center style="font-weight: bold;font-size: 40px;">Our Products</center>
+						<div class="inner_container">
+							<div class="sub_inner">
+								<div class="product">
+									<div class="img"><img src="./images/contour.jpeg" width="100%" alt="contour" style="border-radius: 50%;"></div>
+									<div>
+										<header>Contour</header>
+										<p>A blend of organic Ayurveda Herbs, promotes wellness and weight, Fat / Inch loss and fights inflammation
+											<Br><a href="#popup"><div class="know_button" onclick="details_1();">Know More</div></a>
+										</p>
+									</div>
+								</div>
+								<div class="product">
+									<div class="img"><img src="./images/panacea.jpeg" width="100%" alt="Panacea" style="border-radius: 50%;"></div>
+									<div>
+										<header>panacea</header>
+										<p>Boost immune system, soothe and enhance the nervous system, and promote longevity and vitality.
+										<Br><a href="#popup"><div class="know_button" onclick="details_2();">Know More</div></a>
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="sub_inner">
+								<div class="product">
+									<div class="img"><img src="./images/immuno_sip.jpeg" width="100%" alt="Immuno Sip" style="border-radius: 50%;"></div>
+									<div>
+										<header>Immuno Sip</header>
+										<p>Detoxify the body. Nettle is a diuretic, helps in flushing out harmful chemical and excess liquid.
+											<Br><a href="#popup"><div class="know_button" onclick="details_3();">Know More</div></a>
+										</p>
+									</div>
+								</div>
+								<div class="product">
+									<div class="img"><img src="./images/divine_sip.jpeg" width="100%" alt="Divine Sip" style="border-radius: 50%;"></div>
+									<div>
+										<header>Divine Sip</header>
+										<p>Natural petals of Lavendar, Chammomile, Jasmine, and Hibicus. It manages stress and boost immunity.
+											<br><a href="#popup"><div class="know_button" onclick="details_4();">Know More</div></a>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div> <!-- .category-content -->
+					</div>
+				</div> <!-- .fruits-section -->
+				
+				<div class="fullwidth-block vegetables-section category-block">
+					<div class="container">
+						<figure><img src="https://24lmue3703sc0ka01x5jncyc-wpengine.netdna-ssl.com/wp-content/uploads/2018/09/ginger_turmeric_bottle-2018-06-1.png" height="350px" alt="vegetables"></figure>
+						<div class="category-content">
+							<h1 class="category-title">Fun Fact</h1>
+							<p>How to brew kombucha with your favourite tea?<br>Kombucha originated in China and is often referred to as the ‘Champagne of life’. It’s classified as a fungi which is made from tea and has a delicious tart like taste.  Kombucha is known for its numerous health benefits, although all of these have not been scientifically proven. Despite this fact it has gained mass popularity worldwide for its refreshing taste.</p>
+							<a href="#" class="button">Read more</a>
+						</div> <!-- .category-content -->
+					</div>
+				</div> <!-- .vegetables-section -->
+
+			</main> <!-- .main-content -->
+			
+			<footer class="site-footer">
+				<div class="container">
+					<i class="fas fa-mug-hot" style="font-size: 40px;"></i>
+					<nav class="footer-navigation">
+						<a href="about.html">About me</a>
+						<a href="catalog.html">Catalog</a>
+						<a href="contact.html">Contact</a>
+					</nav>
+					<div class="subscribe">
+						<form action="#">
+							<input type="text" placeholder="Enter your email to join newsletter..." id="mail">
+							<input type="submit" value="Subscribe" onclick="mail_check();";>
+						</form>
+					</div>
+					<div class="social-links">
+						<a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
+						<a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+						<a href="#" class="google-plus"><i class="fab fa-google-plus-g"></i></a>
+						<a href="#" class="pinterest"><i class="fab fa-pinterest"></i></a>
+					</div>
+					<div class="colophon">
+						<p>Copyright 2019 Holistic Infusion Teas. All right reserved</p>
+					</div>
+				</div>
+			</footer>
+
+		</div>
+
+		
+
+		<script src="js/jquery-1.11.1.min.js"></script>
+		<script src="js/main.js" type="text/javascript"></script>
+		<script src="js/plugins.js"></script>
+		<script src="js/app.js"></script>
+		
+	</body>
+
+</html>
